@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <FullClassName>WorksetByElement.Command</FullClassName>
+    <ClientId>00000000-0000-0000-0000-000000000002</ClientId>
+    <Text>WorksetByElement</Text>
+    <Description>Simple command to change the active workset by selecting an element</Description>
+    <Assembly>WorksetByElement.dll</Assembly>
+    <VendorId>518c08d6-686f-4c27-9c41-76ac98275a79</VendorId>
+    <VendorDescription>Alvaro, Ortega Pickmans, https://github.com/alvpickmans/revit-workset-by-element</VendorDescription>
+
+    <VisibilityMode>NotVisibleWhenNoActiveDocument</VisibilityMode>
+  </AddIn>
+
+</RevitAddIns>
